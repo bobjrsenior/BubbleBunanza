@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1087543499109183575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8090142812457272584}
+  - component: {fileID: 8416973757492116815}
+  m_Layer: 0
+  m_Name: DayHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8090142812457272584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087543499109183575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.83, y: -4.76, z: -9.979605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8416973757492116815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087543499109183575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c15b59708a7855dd966547d85147cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalBubblePrefab: {fileID: 4836513601689861275, guid: 453070ccbf3310db28f18f703a6e0293, type: 3}
+  dirtyBubblePrefab: {fileID: 3727293816781811992, guid: a783301ed671da66ca406e2fd180d51a, type: 3}
+  ironBubblePrefab: {fileID: 831720167118702907, guid: dba429206858937da9cda8b3daec9197, type: 3}
+  personBubblePrefab: {fileID: 1249783004232262508, guid: 2b50bd586e9396493927328bafcc77b9, type: 3}
+  dirtyPersonBubblePrefab: {fileID: 5529555840348449752, guid: 9a914df793853b5d4af36235691f639e, type: 3}
+  spikeBubblePrefab: {fileID: 3684529379531877495, guid: 0d9bad40275adaaaea306a2aa7492369, type: 3}
+  trenchcoatBubblePrefab: {fileID: 4311273501197490287, guid: 56de7ad8d1bff594f9b483babbcf9799, type: 3}
+  titleBubblePrefab: {fileID: 5337536824289892916, guid: a3c0da6be4f68bb70b65ef43938a6961, type: 3}
+  teleportBubblePrefab: {fileID: 2338821630694187706, guid: 90930402a5dc70d49a3ebd1d68b7427e, type: 3}
+  bombBubblePrefab: {fileID: 6828565549034212827, guid: ea178e1cbaf198ab98404ee74efefb98, type: 3}
+  poolLocation: {x: 1000, y: 1000}
+  dayStarted: 0
+  spawnTimer: 0
+  spawnCountdown: 0
+  poppedToday: 0
+  delayBetweenDays: 1.5
+  dayDelayCountdown: 0
+  numBubblesForToday: 0
+  autoSpawnEnabled: 0
+  dayStartAudioClips:
+  - {fileID: 8300000, guid: 016208d1e63938290abf812a6550650f, type: 3}
+  - {fileID: 8300000, guid: aed0afce8fbec626ea9dcc704f010f74, type: 3}
+  - {fileID: 8300000, guid: db0d95b7507cf6e7f826d0f1a26adb8d, type: 3}
+  - {fileID: 8300000, guid: 8b954dd68ece38d6d82eee91c2b975c2, type: 3}
+  - {fileID: 8300000, guid: 3a93e3512d65edf2c92e3040a814e760, type: 3}
+  - {fileID: 8300000, guid: 7c39962ee912cdf3bb536d42a325050d, type: 3}
+  - {fileID: 8300000, guid: c54190e72da1700a48c9de53109de776, type: 3}
+  - {fileID: 8300000, guid: 64a83e1522bdaa9cfa37ef0906609d10, type: 3}
+  - {fileID: 8300000, guid: 7ad052c4accb9c3d79ec9c0b8643ae97, type: 3}
