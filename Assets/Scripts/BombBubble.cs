@@ -34,26 +34,29 @@ public class BombBubble : BubbleMovement
         Instantiate(bombBubbleCloudPrefab, this.transform.position, Quaternion.identity);
         scoreWhenPopped = -10;
         moraleWhenPopped = -10;
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
-        Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+        if(!GlobalVariables.instance.gameOver)
+        {
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+            Instantiate(markAlonePrefab, this.transform.position, Quaternion.identity);
+        }
         //populationWhenPopped = -20;
         Dead();
     }
